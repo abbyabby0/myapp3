@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css" rel="stylesheet" />
+    <link href="https://cdn.bootcss.com/animate.css/3.7.2/animate.css" rel="stylesheet" />
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #container {
+            display: block;
+            width: 600px;
+            height: 300px;
+            background-color: rgba(0, 0, 0, 0.6);
+            margin: 0 auto;
+            position: relative;
+            top: 250px;
+            border-radius: 10px;
+        }
+        
+        .bgc {
+            display: block;
+            font-size: 18px;
+            color: #ffffff;
+            text-align: center;
+            font-family: 楷体;
+            font-weight: bold;
+            padding-top: 30px;
+            padding-bottom: 20px;
+        }
+        
+        .login-box-bodyWrap {
+            display: flex;
+            justify-content: center;
+        }
+        
+        body {
+            background: no-repeat;
+            background-image: url(https://ftp.bmp.ovh/imgs/2021/01/3f8278e6ff8b6c87.jpg);
+            background-size: 100%;
+        }
+        
+        span {
+            font-family: 楷体;
+        }
+        
+        .gyc {
+            color: white;
+        }
+        
+        form {
+            text-align: center;
+        }
+        
+        button {
+            width: 40px;
+            height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container" class="animated bounceInLeft">
+        <div class="bgc">
+            <h1 class="title">登录</h1>
+        </div>
+        <br>
+        <div class="login-box-bodyWrap">
+            <div class="login-box-body">
+                <form action="/login/in" method="post">
+                    <span class="gyc">用户名称</span>
+                    <input type="text" placeholder="请输入账号" id="username" name="username">
+                    <br>
+                    <br>
+                    <span class="gyc">用户密码</span>
+                    <input type="password" placeholder="请输入密码" id="password" name="password">
+                    <br>
+                    <br>
+                    <br>
+                    <button type="submit">登录</button>
+
+
+                </form>
+                <!-- /.social-auth-links -->
+                <!-- <a href="#">如你忘记了密码，请联系你的负责人</a> -->
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
