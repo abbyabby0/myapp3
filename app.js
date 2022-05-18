@@ -14,7 +14,7 @@ var path = require('path');
 var logger = require('morgan');
 // 路由表
 // pro：商品管理路由器
-// 
+//   
 var indexRouter = require('./routes/index');
 var proRouter = require('./routes/pro');
 var userRouter = require('./routes/user');
